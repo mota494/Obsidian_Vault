@@ -4,6 +4,15 @@
 One of the 3 projects that a [[42]] student unlocks after finishing rank 02 of the common core and the 5th project in my common core.
 
 ___
+
+### Installation
+
+If you want to test this code you must have GCC installed since this program uses [[Makefile]]  to compile and git so you can clone my repository.
+
+`git clone https://github.com/mota494/42_push_swap.git`
+
+Just run this command on your terminal than go to the folder created and run `make` after the program compiles just use `./pushswap` and some numbers after it.
+
 ### Introduction
 
 There are two stacks A and B, the stack A starts with a random number of negative and positive numbers which can't be duplicated and the stack B starts completely empty and the goal is to sort in ascending order into the stack A using only a limited amount of operations.
@@ -148,3 +157,30 @@ void    reverse_rrr(t_stack **stack_a, t_stack **stack_b)
    ft_printf("rrr\n");  
 }
 ```
+
+#### Sorting three numbers
+
+To sort three numbers or less is better  to use a shorter more compact algorithm than a more robust one used to sort thousands of numbers.
+
+With that in mind I "created" an algorithm that works around the position of the maximum value of the stack
+
+```c
+void    ft_sort_three(t_stack **stack_a)  
+{  
+   if (ft_num_elems(stack_a) == ft_node_index(stack_a, max_num(stack_a)))  
+   {  
+      swap_a(stack_a);  
+      return ;  
+   }  
+   while (ft_num_elems(stack_a) != ft_node_index(stack_a, max_num(stack_a)))  
+      reverse_rra(stack_a);  
+   if (ft_check_sort(stack_a) == 0)  
+      swap_a(stack_a);  
+}
+```
+
+The function starts with an `if` that checks if the index of the node that has the maximum value is equal to the number of elements present on the stack, if that's the case the only operation we have to do is swap the two top elements and the program ends here.
+
+If the maximum element is not already the last node of the list than the program rotates the stack until the condition is satisfied if after that the stack isn't organized the program swaps the two top elements and it's done.
+
+temp->content % togetmod / (togetmod / 10)
