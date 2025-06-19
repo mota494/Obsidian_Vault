@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker Containers.md",
+                "file": "Mechanical Keyboards/Linear Switches.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker Containers"
+              "title": "Linear Switches"
+            }
+          },
+          {
+            "id": "3ca12c19c0f51089",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mechanical Keyboards/Tactile Switches.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tactile Switches"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker Containers.md",
+                "file": "Mechanical Keyboards/Tactile Switches.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker Containers"
+              "title": "Outline of Tactile Switches"
             }
           }
         ],
@@ -182,15 +196,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "62b212f2747b5eaf",
+  "active": "3ca12c19c0f51089",
   "lastOpenFiles": [
-    "Linux/Linux Distro.md",
     "Mechanical Keyboards/Linear Switches.md",
+    "Mechanical Keyboards/Tactile Switches.md",
+    "Docker/Docker Containers.md",
+    "Linux/Linux Distro.md",
     "Docker/Volumes.md",
     "Linux/Hannah Montana Linux.md",
     "Docker/Bind-Mounts.md",
     "Docker/Docker Images.md",
-    "Docker/Docker Containers.md",
     "Linux/Arch.md",
     "Linux/Lubuntu.md",
     "Linux/Ubuntu.md",
