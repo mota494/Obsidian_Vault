@@ -2,6 +2,8 @@ Volumes are much more safe and appropriate for a production environment, outside
 
 Volumes can use remote or cloud storage units like AWS EFS, NFS, SSHFS, etc...
 
+The host cannot interact directly with the files on the volumes and the only way that the host can interact with them it's through the containers
+
 To create a volume you can use this:
 
 ```sh

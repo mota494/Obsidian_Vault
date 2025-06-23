@@ -47,6 +47,7 @@ $ docker run -d # will run the image detached from the main terminal process
 $ docker run --name <NAME> # runs the image with the name specified
 $ docker run --rm # container will auto delete after being stopped
 $ docker run <NAME>:<VERSION> # will run the image in a specific version
+$ docker build -t <IMAGE NAME> . # will build an image based on the Dockerfile
 ```
 
 ## Tags
@@ -83,3 +84,9 @@ When a container is stopped it's file system and everything done to it is lost, 
 Types of mounting
 - [[Bind-Mounts]]
 - [[Volumes]]
+
+## Custom images
+
+Through existing docker images the amount of customization is limited to environment variable, arguments, mount files and directories.
+
+Docker makes it easy to create custom images
