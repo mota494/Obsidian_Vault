@@ -72,7 +72,7 @@ Digests can be obtained through the command `docker image ls --digests` or throu
 
 Most images by default use a fully featured Debian install, but most images will have a slim version that is much more bare bones versions of Debian. This makes the image much much smaller.
 
-On top of slim versions there will also be some images that will have an Alpine Linux version which is a Linux distro that focuses on being light weight and minimalist.
+On top of slim versions there will also be some images that will have an Alpine Linux version which is a [[Linux Distro]] that focuses on being light weight and minimalist.
 
 >[!info]
 >Alpine Linux has some differences to debian like not using .deb packages opting for .apk, not coming with bash as the default terminal and having a much much smaller community than Alpine can limit some of it's functionallity
