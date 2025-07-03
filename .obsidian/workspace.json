@@ -22,6 +22,34 @@
             }
           },
           {
+            "id": "2149a1e56f4ca422",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Open SSL/Open SSL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Open SSL"
+            }
+          },
+          {
+            "id": "b89a42aa7f56107a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Lubuntu.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lubuntu"
+            }
+          },
+          {
             "id": "b75771eb4cba9e88",
             "type": "leaf",
             "state": {
@@ -35,7 +63,8 @@
               "title": "Cryptography"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Open SSL/Open SSL.md",
+                "file": "Linux/Lubuntu.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Open SSL"
+              "title": "Outline of Lubuntu"
             }
           }
         ],
@@ -181,13 +210,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7b33368b1ed04fcb",
+  "active": "b89a42aa7f56107a",
   "lastOpenFiles": [
-    "Definitions/Cryptography.md",
-    "Tools/Open SSL/Open SSL.md",
-    "Untitled",
-    "Definitions",
     "Linux/Linux Distro.md",
+    "Linux/Hannah Montana Linux.md",
+    "42/Inception/42 Inception.md",
+    "Tools/Open SSL/Open SSL.md",
+    "42/Inception",
+    "42",
+    "Tools/Docker/Volumes.md",
+    "Fonts used.md",
+    "Definitions/Cryptography.md",
+    "Definitions",
     "Tools/Docker/Docker.md",
     "Tools/Docker/Bind-Mounts.md",
     "Tools/Open SSL",
@@ -195,11 +229,9 @@
     "Tools",
     "Tools/Docker/Docker Containers.md",
     "Tools/Docker/Docker Images.md",
-    "Tools/Docker/Volumes.md",
     "Mechanical Keyboards/Linear Switches.md",
     "Linux/Ubuntu.md",
     "Linux/Lubuntu.md",
-    "Linux/Hannah Montana Linux.md",
     "Linux/Arch.md",
     "Mechanical Keyboards",
     "Linux",
